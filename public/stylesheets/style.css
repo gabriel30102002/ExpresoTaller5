@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.table-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 30px 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.table-title {
+  padding-bottom: 10px;
+  margin: 0 0 10px;
+  background: #435d7d;
+  color: #fff;
+  padding: 16px 30px;
+  margin: -20px -20px 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.table-title h2 {
+  margin: 5px 0 0;
+  font-size: 24px;
+}
+
+.table-responsive {
+  margin: 30px 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table th, .table td {
+  border-color: #e9e9e9;
+  padding: 12px 15px;
+  vertical-align: middle;
+}
+
+.table th {
+  width: 120px;
+}
+
+.table td {
+  width: auto;
+}
+
+.table .btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  margin-right: 10px;
+}
+
+.table .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.table .pagination {
+  float: right;
+  margin: 0 0 5px;
+}
+
+.table .pagination li a {
+  border: none;
+  font-size: 13px;
+  min-width: 30px;
+  min-height: 30px;
+  color: #999;
+  margin: 0 2px;
+  line-height: 30px;
+  border-radius: 2px !important;
+  text-align: center;
+  padding: 0 6px;
+}
+
+.table .pagination li a:hover {
+  color: #666;
+}
+
+.table .pagination li.active a, .table .pagination li.active a.page-link {
+  background: #03A9F4;
+}
+
+.table .pagination li.active a:hover {
+  background: #0397d6;
+}
+
+.table .pagination li.disabled i {
+  color: #ccc;
+}
+
+.table .hint-text {
+  float: left;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.table a.search {
+  color: #03A9F4;
+}
+
+.table a.delete {
+  color: #E34724;
+}
+
+.table a.search:hover {
+  color: #0397d6;
+}
+
+.table a.delete:hover {
+  color: #d9534f;
+}
+
+.table td a {
+  font-size: 20px;
+}
+
+.table td i {
+  font-size: 24px;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
